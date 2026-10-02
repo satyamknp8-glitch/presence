@@ -1,0 +1,12 @@
+venv/
+.venv/
+node_modules/
+.env
+.env.local
+__pycache__/
+*.pkl
+backend/known_faces/
+dist/
+
+# self-hosted face engine (fetched by scripts/fetch-assets.mjs)
+public/mediapipe/
